@@ -12,18 +12,6 @@
 ### CI/CD 전체 흐름
 <img width="933" height="248" alt="image" src="https://github.com/user-attachments/assets/20ddd5c0-fdd3-411c-b936-1e2fbba2789a" />
 
-```
- Developer
-    │ git push (코드 변경)
-    ▼
- FlowShip-app ──▶ Jenkins ──▶ Docker Hub
-                     │                │
-                     │ image tag 업데이트   │ image pull
-                     ▼                ▼
-              FlowShip-ops ──▶ Kubernetes Cluster
-              (이 레포)    ArgoCD
-                           auto sync
-```
 
 ### Kubernetes 애플리케이션 구조
 
