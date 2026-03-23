@@ -10,6 +10,7 @@
 ## Architecture
 
 ### CI/CD 전체 흐름
+<img width="933" height="248" alt="image" src="https://github.com/user-attachments/assets/20ddd5c0-fdd3-411c-b936-1e2fbba2789a" />
 
 ```
  Developer
