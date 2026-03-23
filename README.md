@@ -3,7 +3,7 @@
 > Kubernetes 매니페스트 + ArgoCD GitOps 자동 배포
 
 **FlowShip**은 Django 웹 서비스의 코드 변경부터 Kubernetes 배포까지 전 과정을 자동화하는 CI/CD 프로젝트입니다.  
-이 레포는 **Kubernetes 배포 매니페스트(YAML)**를 관리하며, ArgoCD가 이 레포를 감시하여 변경 사항을 클러스터에 자동 반영합니다. 애플리케이션 소스코드는 [FlowShip-app](https://github.com/<your-username>/FlowShip-app) 레포에서 관리됩니다.
+이 레포는 Kubernetes 배포 매니페스트(YAML)를 관리하며, ArgoCD가 이 레포를 감시하여 변경 사항을 클러스터에 자동 반영합니다. 애플리케이션 소스코드는 [FlowShip-app](https://github.com/jeegle16-alt/FlowShip-app) 레포에서 관리됩니다.
 
 ---
 
